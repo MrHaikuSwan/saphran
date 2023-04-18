@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+select, button {
+    margin-top: 10px;
+}
+
+canvas {
+    margin-top: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+.logo {
+    padding-top: 16px;
+    float: left;
+    margin-left: 20px;
+}
+
+#navigation-container {
+    margin: 0 auto;
+    height: 70px;
+}
+
+.navigation-bar {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.navigation-bar li a {
+    color: black;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+
+/* End Nav Bar */
+
+
+/* sidebar */
+
+.reports {
+    flex: 20%;
+    background-color: #222d31;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
+.reports p {
+    padding-left: 10px;
+}
+
+.saved-queries {
+    height: 30px;
+    background-color: #2c3a3f;
+    line-height: 30px;
+    padding-left: 12px;
+}
+
+.query-count {
+    border-radius: 2px;
+    background-color: #27505f;
+    float: right;
+    margin-right: 5px;
+    padding: 1px 5px;
+    height: 92%;
+}
+
+/* end sidebar */
+
+.forecast {
+    flex: 80%;
+}
+
+.report-forecast {
+    display: flex;
+    flex-direction: row;
+}
